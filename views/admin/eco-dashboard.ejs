@@ -1,0 +1,23 @@
+ <%- include('../adminLayout/adminheader') %>
+ <%- include('../adminLayout/adminSideBarhead') %>
+    <h1>DASHBOARD</h1>
+
+    <div class="main-content">
+        <!-- Main content goes here -->
+        <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
+        <!-- Your main content can be added here -->
+    </div>
+</div>
+
+<script>
+    function toggleSidebar() {
+        document.querySelector('.sidebar').classList.toggle('open');
+    }
+</script>
+
+<%- include('../adminLayout/adminfooter') %>
+
+
+
+  </body>
+  </html>
